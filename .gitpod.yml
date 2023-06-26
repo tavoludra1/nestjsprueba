@@ -2,6 +2,7 @@
 tasks:
   - name: Configuraciones Iniciales
     init: yarn install
+    command: npm run start:dev
 
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
